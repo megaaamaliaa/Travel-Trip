@@ -1,0 +1,380 @@
+body {
+    font-family: "poppins";
+    color: #071c4d;
+}
+
+.navbar-brand img {
+    max-height: 70px;
+}
+
+.nav-link {
+    color: #071c4d;
+    font-size: 20px;
+}
+.nav-link.active {
+    font-weight: bold;
+    color: #071c4d;
+}
+
+.btn-login {
+    background-color: #df6951;
+    color: white;
+}
+.btn-login:hover {
+    background-color: #284ea7;
+    color: white;
+}
+
+header {
+    padding: 180px 0px 165px;
+    margin-top: -60px;
+    background-image: url(../images/header.png);
+    background-size: cover;
+    background-position: center;
+}
+header h1,
+header p {
+    color: white;
+}
+header h1 {
+    font-family: "Yesteryear";
+
+    font-size: 100px;
+}
+
+.section-stats {
+    margin-top: -50px;
+}
+.section-stats .stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 35px;
+    text-align: center;
+}
+.section-stats h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.section-stats p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.section-popular {
+    min-height: 600px;
+    background-color: #051334;
+    margin-top: -92px;
+    margin-bottom: -230px;
+}
+.section-popular .section-popular-heading {
+    margin-top: 180px;
+}
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+    color: #fff;
+}
+.section-popular .section-popular-heading h2 {
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-popular .section-popular-heading p {
+    font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+    min-height: 400px;
+    background-color: #000000;
+    color: #fff;
+    padding: 30px;
+    background-size: cover;
+    margin-bottom: 20px;
+    background-position: center;
+    border-radius: 3%;
+}
+.section-popular-content .section-popular-travel .card-travel .travel-country {
+    font-size: 16px;
+    color: #fff;
+    background-color: #6e6e6e7e;
+}
+.section-popular-content .section-popular-travel .card-travel .travel-location {
+    font-size: 20px;
+    color: #fff;
+    background-color: #6e6e6e7e;
+}
+.section-popular-content
+    .section-popular-travel
+    .card-travel
+    .travel-button
+    .btn-travel-details {
+    background-color: #df6951;
+    color: #fff;
+}
+.section-popular-content
+    .section-popular-travel
+    .card-travel
+    .travel-button
+    .btn-travel-details:hover {
+    background-color: #fdc193;
+    color: #fff;
+}
+
+.section-networks {
+    background-color: #fff;
+    margin-top: -170px;
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+.section-networks h2 {
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-networks p {
+    font-size: 18px;
+}
+.section-networks img {
+    max-width: 100%;
+}
+
+.section-testimonial-heading {
+    background: #051334;
+    padding-top: 60px;
+    min-height: 550px;
+}
+.section-testimonial-heading h2 {
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+.section-testimonial-heading p {
+    font-size: 18px;
+    color: white;
+}
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+}
+.section-testimonial-content .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+    background-color: #f7f6f6;
+}
+.section-testimonial-content .card-testimonial .testimonial-content {
+    min-height: 400px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content h3 {
+    font-size: 22px;
+}
+.section-testimonial-content
+    .card-testimonial
+    .testimonial-content
+    .testimonial {
+    font-weight: 200;
+    font-size: 26px;
+    color: #6e6e6e;
+}
+.section-testimonial-content .card-testimonial .testimonial-content .trip-to {
+    font-weight: normal;
+    font-size: 22px;
+    color: #6e6e6e;
+}
+.section-testimonial-content .card-testimonial .testimonial-content hr {
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.section-testimonial-content .btn-get-started {
+    background-color: #df6951;
+    color: white;
+}
+.section-testimonial-content .btn-get-started:hover {
+    background-color: #fdc193;
+    color: white;
+}
+.section-testimonial-content .btn-need-help {
+    background-color: #cecece;
+    color: #ffffff;
+}
+.section-testimonial-content .btn-need-help:hover {
+    background-color: #f2f2f2;
+    color: #c3c3c3;
+}
+
+.section-footer a {
+    color: #071c4d;
+}
+
+.section-details-header {
+    min-height: 310px;
+    background: #e4e6eb;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+    padding: 0;
+    margin-bottom: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+    font-weight: bold;
+    color: #071c4d;
+}
+.section-details-content .card-details {
+    padding: 30px;
+    border-radius: 11px;
+}
+.section-details-content .card-details h1 {
+    font-size: 26px;
+}
+.section-details-content .card-details h2 {
+    font-size: 20px;
+}
+.section-details-content .card-details p {
+    font-size: 18px;
+    color: #b1b1b1;
+}
+.section-details-content .card-details .trip-informations th {
+    font-weight: 300;
+    font-size: 18px;
+    color: #071c4d;
+}
+.section-details-content .card-details .trip-informations td {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+}
+.section-details-content .card-details .trip-informations .text-blue {
+    color: #071c4d;
+    font-weight: bold;
+}
+.section-details-content .card-details .trip-informations .text-orange {
+    color: #ff9e53;
+    font-weight: bold;
+}
+.section-details-content .card-details .payment-instructions {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b1b1b1;
+}
+.section-details-content .card-details .bank .bank-item h3 {
+    font-size: 18px;
+    color: #071c4d;
+    margin-bottom: 0;
+}
+.section-details-content .card-details .bank .bank-item p {
+    margin-bottom: 0;
+}
+.section-details-content .card-details .bank .bank-item .descriptions {
+    margin-left: 10;
+    overflow: hidden;
+    float: left;
+}
+.section-details-content .card-details .bank .bank-item .descriptions p {
+    font-weight: normal;
+    font-size: 16px;
+    color: #071c4d;
+}
+.section-details-content .card-details .bank .bank-image {
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+.section-details-content .card-details h3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #071c4d;
+}
+.section-details-content .card-details .disclaimer {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b1b1b1;
+}
+.section-details-content .card-details .btn-add-now {
+    background-color: #071c4d;
+    color: white;
+}
+.section-details-content .card-details .btn-add-now:hover {
+    background-color: #284ea7;
+    color: white;
+}
+.section-details-content .card-details .features {
+    margin-top: 20px;
+}
+.section-details-content .card-details .features h3 {
+    font-size: 18px;
+    color: #071c4d;
+    margin-bottom: 0;
+}
+.section-details-content .card-details .features p {
+    margin-bottom: 0;
+}
+.section-details-content .card-details .features .description {
+    margin-left: 10px;
+    overflow: hidden;
+    float: left;
+}
+.section-details-content .card-details .features .description .featured-image {
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+.section-details-content .card-details .gallery .xzoom-container {
+    display: block;
+}
+.section-details-content .card-details .gallery .xzoom-container .xzoom {
+    width: 100%;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+.section-details-content .card-details .gallery .xzoom-container .xactive {
+    border: 4px solid #1abc9c;
+    box-shadow: none;
+}
+.section-details-content .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+}
+.section-details-content .join-container {
+    margin-top: -20px;
+}
+.section-details-content .btn-join-now {
+    background-color: #df6951;
+    color: #fff;
+    border-radius: 0;
+}
+.section-details-content .btn-join-now:hover {
+    background-color: #fdc193;
+    color: white;
+}
+
+.section-sukses {
+    height: 90vh;
+}
+.section-sukses h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
+    margin-top: 90px;
+}
+.section-sukses p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+    margin-top: 40px;
+}
+.section-sukses .btn-home-page {
+    border-radius: 4px;
+    background-color: #df6951;
+    color: #fff;
+}
+.section-sukses .btn-home-page:hover {
+    background-color: #df6951;
+    color: #fff;
+} /*# sourceMappingURL=main.css.map */
