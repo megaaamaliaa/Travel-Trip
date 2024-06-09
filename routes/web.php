@@ -36,14 +36,15 @@ Route::get('/checkout/{id}', [CheckoutController::class, 'index'])
 Route::post('/checkout/create/{detail_id}', [CheckoutController::class, 'create'])
     ->name('checkout-create')
     ->middleware(['auth']);
+Route::post('/checkout/create/bukti/{detail_id}', [CheckoutController::class, 'bukti'])
+    ->name('checkout-bukti')
+    ->middleware(['auth']);
 Route::get('/checkout/remove/{detail_id}', [CheckoutController::class, 'remove'])
     ->name('checkout-remove')
     ->middleware(['auth']);
 Route::get('/checkout/confirm/{id}', [CheckoutController::class, 'success'])
     ->name('checkout-success')
     ->middleware(['auth']);
-
-Route::resource('bukti', BuktiController::class);
 
 Route::prefix('admin')
     ->name('Admin')

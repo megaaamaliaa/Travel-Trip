@@ -34,7 +34,7 @@
                         <td>Picture</td>
                         <td>Name</td>
                         <td>Nationality</td>
-                        <td>NIK</td>
+                        <td>NIK/Phone Number</td>
                         <td></td>
                       </tr>
                     </thead>
@@ -65,29 +65,59 @@
                   <form action="{{ route('checkout-create', $item->id) }}" class="form-inline row " method="POST" enctype="multipart/form-data" >
                     @csrf
                     <div class="col-sm-3">
-                    <label for="username" class="visually-hidden-focusable">username</label>
-                    <input type="text" name="username" class="form-control mb-2 me-sm-2" id="username" placeholder="Username">
+                        <p>Name</p>
+                    <label for="username" class="visually-hidden-focusable">Name</label>
+                    <input type="text" name="username" class="form-control mb-2 me-sm-2" id="username" placeholder="Name">
                     </div>
                     <div class="col-sm-3">
+                        <p>NIK</p>
                     <label for="NIK" class="visually-hidden-focusable">NIK</label>
                     <input type="text" name="NIK" class="form-control mb-2 me-sm-2" id="NIK" placeholder="NIK">
                     </div>
                     <div class="col-sm-3">
+                        <p>Nationality</p>
                     <label for="nationality" class="visually-hidden-focusable">Nationality</label>
                     <input type="text" name="nationality" class="form-control mb-2 me-sm-2" id="nationality" placeholder="Nationality">
                     </div>
                     <div class="col-sm-3">
-                    <label for="image" class="visually-hidden-focusable">Bukti</label>
-                    <input type="file" name="image" class="form-control mb-2 me-sm-2" id="image" placeholder="image" value="default value" >
-                    </div>
-                    <div class="col-sm-3">
+                        <p>Add Member</p>
                     <button type="submit" class="btn btn-add-now mb-2 px-4">
                       Add Now
                     </button>
                     </div>
                   </form>
                 </div>
-
+                <div class="member mt-6">
+                  <h2>Person Responsible</h2>
+                 <form action="{{ route('checkout-bukti', $item->id) }}" class="form-inline row " method="POST" enctype="multipart/form-data" >
+                    @csrf
+                    <div class="col-sm-3">
+                        <p>Name</p>
+                    <label for="username" class="visually-hidden-focusable">Name</label>
+                    <input type="text" name="username" class="form-control mb-2 me-sm-2" id="username" placeholder="Name">
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Phone Number</p>
+                    <label for="NIK" class="visually-hidden-focusable">Phone Number</label>
+                    <input type="text" name="NIK" class="form-control mb-2 me-sm-2" id="NIK" placeholder="Phone Number">
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Nationality</p>
+                    <label for="nationality" class="visually-hidden-focusable">Nationality</label>
+                    <input type="text" name="nationality" class="form-control mb-2 me-sm-2" id="nationality" placeholder="Nationality">
+                    </div>
+                     <div class="col-sm-3">
+                        <p>Bukti transactions</p>
+                    <label for="image" class="visually-hidden-focusable">Bukti</label>
+                    <input type="file" name="image" class="form-control mb-2 me-sm-2" id="image" placeholder="image" value="default value" >
+                    </div>
+                    <div class="col-sm-3">
+                    <button type="submit" class="btn btn-add-now mb-2 px-4">
+                      Confirm
+                    </button>
+                    </div>
+                  </form>
+                  </div>
             </div>
           </div>
           <!-- card checkout -->

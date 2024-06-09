@@ -79,7 +79,6 @@
             <h3><strong>Booking ID:</strong> {{ $item->id }}</h3> <br>
             <h4><strong>Travel Details</strong></h4>
             <p> Nama User      : {{ $item->users->name }} </p>
-            <p> Jumlah Tiket   :  {{ $item->details->count() }}  </p>
             <p> Location       : {{ $item->travel_packages->title }}  </p>
             <p> Date And Time  : {{\Carbon\Carbon::create($item->departure_date)->format('F d, Y')}} </p>
             </div>

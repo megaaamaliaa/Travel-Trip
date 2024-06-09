@@ -67,18 +67,18 @@ class CheckoutController extends Controller
         $request->validate([
             // 'username' => 'required|string|exists:users,username',
             'NIK' => 'required|string',
-            'image' => 'required|mimes:png,jpg,jpeg',
+            // 'image' => 'required|mimes:png,jpg,jpeg',
         ]);
 
-        $image = $request->file('image');
-        $filename = date('Y-m-d') . $image->getClientOriginalName();
-        $path = 'bukti-image/' . $filename;
+        // $image = $request->file('image');
+        // $filename = date('Y-m-d') . $image->getClientOriginalName();
+        // $path = 'bukti-image/' . $filename;
 
-        Storage::disk('public')->put($path, file_get_contents($image));
+        // Storage::disk('public')->put($path, file_get_contents($image));
 
         $data = $request->all();
         $data['transactions_id'] = $id;
-        $data['image'] = $filename;
+        // $data['image'] = $filename;
 
         TransactionDetail::create($data);
 
@@ -112,5 +112,31 @@ class CheckoutController extends Controller
 
         ]);
 
+    }
+
+    public function bukti(Request $request, string $id)
+    {
+        $request->validate([
+            // 'username' => 'required|string|exists:users,username',
+            'NIK' => 'required|string',
+            'image' => 'required|mimes:png,jpg,jpeg',
+        ]);
+
+        $image = $request->file('image');
+        $filename = date('Y-m-d') . $image->getClientOriginalName();
+        $path = 'bukti-image/' . $filename;
+
+        Storage::disk('public')->put($path, file_get_contents($image));
+
+        $data = $request->all();
+        $data['transactions_id'] = $id;
+        $data['image'] = $filename;
+
+        TransactionDetail::create($data);
+
+
+
+
+        return redirect()->route('checkout', $id);
     }
 }

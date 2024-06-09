@@ -54,7 +54,7 @@
                                         <th>ID</th>
                                         <th>Nama</th>
                                         <th>Nasionality</th>
-                                        <th>NIK</th>
+                                        <th>NIK/Phone Number</th>
                                         <th>Bukti Transaksi</th>
                                     </tr>
                                     @foreach ($item->details as $detail )
@@ -63,7 +63,7 @@
                                             <td>{{ $detail->username }}</td>
                                             <td>{{ $detail->nationality }}</td>
                                             <td>{{ $detail->NIK }}</td>
-                                            <td> <img src="{{ asset('storage/bukti-image/'. $detail->image) }}" alt="" style="width:150px" class="img-thumbnail"></td>
+                                            <td> <img src="{{ asset('storage/bukti-image/'.$detail->image) }}" alt="" style="width:150px" class="img-thumbnail"></td>
 
                                         </tr>
                                     @endforeach

@@ -377,4 +377,35 @@ header h1 {
 .section-sukses .btn-home-page:hover {
     background-color: #df6951;
     color: #fff;
+}
+.page-login {
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+.page-login .btn-login {
+    background-color: #ff9e53;
+    color: #fff;
+    border-radius: 0;
+    justify-content: center;
+    align-items: center;
+}
+.page-login .btn-login:hover {
+    background-color: #fdc193;
+    color: white;
+}
+.page-login .section-left h1 {
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    color: #051334;
+}
+.page-login .section-right a {
+    font-family: "poppins";
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: 16px;
+    text-align: center;
+    color: #bfbfbf;
 } /*# sourceMappingURL=main.css.map */
