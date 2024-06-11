@@ -107,7 +107,7 @@
                     <input type="text" name="nationality" class="form-control mb-2 me-sm-2" id="nationality" placeholder="Nationality">
                     </div>
                      <div class="col-sm-3">
-                        <p>Bukti transactions</p>
+                        <p>Receipt</p>
                     <label for="image" class="visually-hidden-focusable">Bukti</label>
                     <input type="file" name="image" class="form-control mb-2 me-sm-2" id="image" placeholder="image" value="default value" >
                     </div>

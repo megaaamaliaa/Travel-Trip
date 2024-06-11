@@ -36,7 +36,7 @@
             text-align: center;
         }
         .logo h1 {
-            font-family: "poppins";
+            font-family: "Yesteryear";
         }
         .content {
             margin: 20px 0;

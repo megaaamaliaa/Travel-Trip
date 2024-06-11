@@ -32,11 +32,11 @@ header {
     background-size: cover;
     background-position: center;
 }
-header h1,
+header h2,
 header p {
     color: white;
 }
-header h1 {
+header h2 {
     font-family: "Yesteryear";
 
     font-size: 100px;

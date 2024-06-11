@@ -7,11 +7,9 @@
 @section('content')
 <!-- header -->
 <header class="text-center">
-    <h1>
-    Explore The Beautiful World
-    <br />
-    As Easy One Click
-    </h1>
+    <h2>
+    Travel With Us
+    </h2>
 
 </header>
 
@@ -31,7 +29,7 @@
         </div>
         <div class="col-3 col-md-2 stats-detail">
         <img src="{{ url('frontend/images/hotel.png') }}" alt="">
-        <h2>3K</h2>
+        <h2>3K </h2>
         <p>Hotel</p>
         </div>
         <div class="col-3 col-md-2 stats-detail">
@@ -186,9 +184,6 @@
         </div>
         <div class="row">
         <div class="col-12 text-center">
-            <a href="#" class="btn btn-need-help px-4 mt-4 mx-1">
-            I Need Help
-            </a>
             <a href="{{ route('register') }}" class="btn btn-get-started px-4 mt-4 mx-1">
             Get Started
             </a>
