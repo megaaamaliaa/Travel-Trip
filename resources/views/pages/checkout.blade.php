@@ -88,7 +88,7 @@
                   </form>
                 </div>
                 <div class="member mt-6">
-                  <h2>Person Responsible</h2>
+                  <h2>Contact Person</h2>
                  <form action="{{ route('checkout-bukti', $item->id) }}" class="form-inline row " method="POST" enctype="multipart/form-data" >
                     @csrf
                     <div class="col-sm-3">
@@ -133,13 +133,13 @@
                 </tr>
                 <tr>
                   <th width="50%">Trip Price</th>
-                  <td width="50%" class="text-end">
+                  <td width="50%" class="text-end"> Rp
                     {{ $item->travel_packages->price }}/ person
                   </td>
                 </tr>
                 <tr>
                   <th width="50%">Sub Total</th>
-                  <td width="50%" class="text-end">
+                  <td width="50%" class="text-end"> Rp
                    {{ $item->transaction_total }}
                   </td>
                 </tr>

@@ -20,11 +20,11 @@ body {
 }
 
 .btn-login {
-    background-color: #071c4d;
+    background-color: #df6951;
     color: #ffff;
 
     &:hover {
-        background-color: #284ea7;
+        background-color: #ff9e53;
         color: #ffff;
     }
 }
@@ -33,24 +33,23 @@ body {
 header {
     padding: 180px 0px 165px;
     margin-top: -70px;
-    background-image: url(../images/header.jpg);
+    background-image: url(../images/header.png);
     background-size: cover;
 
-    h1,
+    h2,
     p {
         color: #ffff;
     }
-    h1 {
-        font-family: "Playfair Display", serif;
-        font-weight: bold;
-        font-size: 50px;
+    h2 {
+        font-family: "Yesteryear";
+        font-size: 90px;
     }
     p {
         font-size: 22px;
     }
 
     .btn-get-started {
-        background-color: #ff9e53;
+        background-color: #df6951;
         color: #ffff;
 
         &:hover {
@@ -86,11 +85,11 @@ header {
 .section-popular {
     min-height: 600px;
     background-color: #051334;
-    margin-top: -50px;
+    margin-top: -92px;
     margin-bottom: -230px;
 
     .section-popular-heading {
-        margin-top: 150px;
+        margin-top: 170px;
 
         h2,
         p {
@@ -118,23 +117,27 @@ header {
             color: #fff;
             padding: 30px;
             background-size: cover;
+            background-position: center;
             margin-bottom: 20px;
 
             .travel-country {
                 font-size: 18px;
+                font-weight: bold;
                 color: #fff;
+                background-color: #6e6e6e6b;
             }
             .travel-location {
-                font-size: 23px;
+                font-size: 18px;
                 color: #fff;
+                background-color: #6e6e6e6b;
             }
             .travel-button {
                 .btn-travel-details {
-                    background-color: #ff9e53;
+                    background-color: #df6951;
                     color: #fff;
 
                     &:hover {
-                        background-color: #fdc193;
+                        background-color: #ff9e53;
                         color: #fff;
                     }
                 }
@@ -423,12 +426,12 @@ header {
     }
 
     .btn-join-now {
-        background-color: #ff9e53;
+        background-color: #df6951;
         color: #fff;
         border-radius: 0;
 
         &:hover {
-            background-color: #fdc193;
+            background-color: #ff9e53;
             color: #ffff;
         }
     }
@@ -450,11 +453,11 @@ header {
     }
     .btn-home-page {
         border-radius: 4px;
-        background-color: #071c4d;
+        background-color: #df6951;
         color: #fff;
 
         &:hover {
-            background-color: #284ea7;
+            background-color: #ff9e53;
             color: #fff;
         }
     }

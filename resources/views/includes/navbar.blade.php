@@ -26,6 +26,9 @@
             <li class="nav-item">
             <a class="nav-link" href="#section-testimonial-heading">Testimonial</a>
             </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
         </ul>
 
         @guest

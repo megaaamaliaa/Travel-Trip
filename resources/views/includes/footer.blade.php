@@ -1,3 +1,4 @@
+<section class="contact" id="contact">
 <footer class="text-center align-bottom py-4">
     <div class="footertemp">
     <div class="footer-logo">
@@ -20,3 +21,4 @@
     </div>
     </div>
 </footer>
+</section>

@@ -80,7 +80,7 @@
                             </div>
                         </div>
 
-                        <div class="row justify-center ">
+                            <div class="col-md-8 offset-md-4 mt-5">
                                 <button type="submit" class="btn btn-login">
                                     {{ __('Register') }}
                                 </button>

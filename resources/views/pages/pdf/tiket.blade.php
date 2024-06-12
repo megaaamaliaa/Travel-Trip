@@ -82,7 +82,9 @@
             <p> Location       : {{ $item->travel_packages->title }}  </p>
             <p> Date And Time  : {{\Carbon\Carbon::create($item->departure_date)->format('F d, Y')}} </p>
             </div>
+
             <div class="footer">
+                <hr>
             <p>Contact Us <br>
             <a href="mailto:support@TravelTrip.id">Support@TravelTrip.id</a> <br>
             085728598894</p>
