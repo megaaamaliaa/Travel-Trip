@@ -57,7 +57,7 @@
             </div>
         </div>
     </div>
-
+    {{ $items->links() }}
 </div>
 <!-- /.container-fluid -->
 
