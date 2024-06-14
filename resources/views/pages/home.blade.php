@@ -78,6 +78,10 @@
         @endforeach
 
         </div>
+        <div class="paginate">
+            {{ $items->links() }}
+
+        </div>
     </div>
     </section>
 

@@ -71,7 +71,7 @@
             <h1>Dont Forget Your E-Ticket!</h1>
             </div>
             <div class="logo" >
-                <h1>TravelTrip</h1>
+                <h1>OpenTrip.id</h1>
             </div>
             <div class="content">
             <h3>Hi, {{ $item->users->name }}</h3>

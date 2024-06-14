@@ -88,6 +88,8 @@
                   </form>
                 </div>
                 <div class="member mt-6">
+                    <h3 class="mt-2 mb-0">Note</h3>
+                  <p class="disclaimer mb-0">Add contact person and confirm your payment</p>
                   <h2>Contact Person</h2>
                  <form action="{{ route('checkout-bukti', $item->id) }}" class="form-inline row " method="POST" enctype="multipart/form-data" >
                     @csrf

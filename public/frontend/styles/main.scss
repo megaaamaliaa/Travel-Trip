@@ -6,7 +6,7 @@ body {
 // navbar
 .navbar-brand {
     img {
-        max-height: 40px;
+        max-height: 50px;
     }
 }
 
@@ -247,8 +247,15 @@ header {
 
 // Footer
 .section-footer {
+    background-color: #051334;
+    color: #ffffff;
+
     a {
-        color: #071c4d;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    .contact {
+        padding-top: 70px;
     }
 }
 

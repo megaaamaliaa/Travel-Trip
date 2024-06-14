@@ -4,7 +4,7 @@ body {
 }
 
 .navbar-brand img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 .nav-link {
@@ -200,8 +200,16 @@ header .btn-get-started:hover {
   color: #c3c3c3;
 }
 
+.section-footer {
+  background-color: #051334;
+  color: #ffffff;
+}
 .section-footer a {
-  color: #071c4d;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.section-footer .contact {
+  padding-top: 70px;
 }
 
 .section-details-header {
