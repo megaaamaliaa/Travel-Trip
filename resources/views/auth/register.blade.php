@@ -80,11 +80,13 @@
                             </div>
                         </div>
 
-                            <div class="col-md-8 offset-md-4 mt-5">
+                            <div class="col-md-8 offset-md-4 mb-4">
                                 <button type="submit" class="btn btn-login">
                                     {{ __('Register') }}
                                 </button>
+
                             </div>
+                            <p class="text-center"><a href="{{ route('login') }}">Already have an account? </a></p>
                     </form>
                     </div>
             </div>

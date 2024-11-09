@@ -13,7 +13,9 @@
             <br />
             please read it as well
           </p>
-          <a href="{{ route('checkout-success', $item->id) }}?export=pdf" class="btn btn-home-page mt-3 px-5">Print Tiket</a>
+              <a href="{{ route('checkout-success', $item->id) }}?export=pdf" class="btn btn-home-page mt-3 px-5">Print Tiket</a>
+
+
           <div class="col text-center">
           <a href="{{ route('home') }}" class="text-muted mt-3 px-5">home</a>
         </div>

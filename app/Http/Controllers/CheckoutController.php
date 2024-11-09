@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\TransactionSuccess;
 use App\Models\BuktiTransaction;
 use App\Models\Transaction;
 use App\Models\TransactionDetail;
@@ -10,7 +11,9 @@ use App\Models\User;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
+
 
 class CheckoutController extends Controller
 {
@@ -95,17 +98,25 @@ class CheckoutController extends Controller
 
     public function success(Request $request, string $id)
     {
-        $transactions = Transaction::findOrFail($id);
+        $transactions = Transaction::with(['details', 'travel_packages', 'users', 'galleries'])->findOrFail($id);
         $transactions->transaction_status = 'PENDING';
 
         $transactions->save();
 
+        // kirim e tiket
+        // Mail::to('aaaa@gmail.com')->send(
+        //     new TransactionSuccess()
+        // );
+
         $item = Transaction::with(['details', 'travel_packages', 'users', 'galleries'])->findOrFail($id);
+
+
 
         if ($request->get('export') == 'pdf') {
             $pdf = Pdf::loadView('pages.pdf.tiket', ['item' => $item]);
             return $pdf->download('sukses.pdf');
         }
+
 
         return view('pages.sukses', [
             'item' => $item

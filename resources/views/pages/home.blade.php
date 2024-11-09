@@ -18,22 +18,22 @@
     <div class="container">
     <section class="section-stats row justify-content-center" id="stats">
         <div class="col-3 col-md-2 stats-detail">
-        <img src="{{ url('frontend/images/member.png') }}" alt="">
+        <img src="{{ url('frontend/images/member.png') }}" alt="" height="20px" width="20px">
         <h2>20K</h2>
         <p>Members</p>
         </div>
         <div class="col-3 col-md-2 stats-detail">
-        <img src="{{ url('frontend/images/map.png') }}" alt="">
+        <img src="{{ url('frontend/images/map.png') }}" alt="" height="20px" width="20px">
         <h2>12</h2>
         <p>Countries</p>
         </div>
         <div class="col-3 col-md-2 stats-detail">
-        <img src="{{ url('frontend/images/hotel.png') }}" alt="">
+        <img src="{{ url('frontend/images/hotel.png') }}" alt="" height="20px" width="20px">
         <h2>3K </h2>
         <p>Hotel</p>
         </div>
         <div class="col-3 col-md-2 stats-detail">
-        <img src="{{ url('frontend/images/partner.png') }}" alt="">
+        <img src="{{ url('frontend/images/partner.png') }}" alt="" height="20px" width="20px">
         <h2>72</h2>
         <p>Partners</p>
         </div>

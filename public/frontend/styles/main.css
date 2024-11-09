@@ -60,7 +60,7 @@ header .btn-get-started:hover {
   text-align: center;
 }
 .section-stats h2 {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 .section-stats p {
@@ -184,7 +184,7 @@ header .btn-get-started:hover {
   margin-right: 20px;
 }
 .section-testimonial-content .btn-get-started {
-  background-color: #ff9e53;
+  background-color: #df6951;
   color: white;
 }
 .section-testimonial-content .btn-get-started:hover {
@@ -242,7 +242,7 @@ header .btn-get-started:hover {
 }
 .section-details-content .card-details p {
   font-size: 18px;
-  color: #b1b1b1;
+  color: #6c6b6b;
 }
 .section-details-content .card-details .trip-informations th {
   font-weight: 300;
@@ -389,7 +389,7 @@ header .btn-get-started:hover {
 }
 
 .page-login .btn-login {
-  background-color: #ff9e53;
+  background-color: #df6951;
   color: #fff;
   border-radius: 0;
 }
@@ -404,7 +404,7 @@ header .btn-get-started:hover {
   font-weight: bold;
   font-size: 30px;
   text-align: left;
-  color: #051334;
+  color: #000000;
 }
 
 .page-login .section-right a {
@@ -413,5 +413,5 @@ header .btn-get-started:hover {
   text-decoration: underline;
   font-size: 16px;
   text-align: center;
-  color: #bfbfbf;
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */

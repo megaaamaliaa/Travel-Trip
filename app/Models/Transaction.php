@@ -43,6 +43,7 @@ class Transaction extends Model
 
         return $this->belongsTo(User::class, 'users_id', 'id');
     }
+
     public function galleries()
     {
         // relations 1travel memiliki banyak galery
